@@ -1,8 +1,8 @@
 # Telco Churn Prediction - Modeling Pipeline
 
 ## Overview
-This project implements a complete machine learning pipeline to predict customer churn in a banking context. 
-The pipeline follows best practices for reproducibility, interpretability, and performance optimization.
+This project implements a complete machine learning pipeline to predict customer churn in a telco compay context. 
+The pipeline follows best practices for reproducibility, interpretability and performance optimization.
 
 ## Project Structure
 ```
