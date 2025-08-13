@@ -1,4 +1,4 @@
-# Bank Churn Prediction - Modeling Pipeline
+# Telco Churn Prediction - Modeling Pipeline
 
 ## Overview
 This project implements a complete machine learning pipeline to predict customer churn in a banking context. 
@@ -10,17 +10,19 @@ data/
     raw/           # Original datasets
     processed/     # Preprocessed datasets (train, eval, test splits)
 models/
-    final_model.pkl
+    final_model.joblib
 notebooks/
-    01_exploration.ipynb
-    02_preprocessing_modeling_clean.ipynb
+    01_data_exploration.ipynb
+    02_preprocessing_modeling.ipynb
 reports/
-    metrics.csv
+    model_selection_results.csv
+    test_metrics.json
     figures/
-        shap_summary.png
+        confusion_matrix_test.png
+        pr_curve_test.png
+        roc_curve_test.png
 src/
-    preprocessing.py
-    training.py
+    data_preprocessing.py
 ```
 
 ## Workflow
@@ -58,7 +60,6 @@ jupyter notebook notebooks/02_preprocessing_modeling_clean.ipynb
 
 ## Key Findings
 - Random Forest achieved the highest F1-score on evaluation data.
-- Top features influencing churn predictions identified via SHAP.
 
 ## Author
-Dani - Data Science & Machine Learning
+Daniel Sánchez Pagán
