@@ -7,7 +7,7 @@ The pipeline follows best practices for reproducibility, interpretability and pe
 ## Project Structure
 ```
 data/
-    raw/           # Original datasets
+    raw/           # Original dataset
     processed/     # Preprocessed datasets (train, eval, test splits)
 models/
     final_model.joblib
